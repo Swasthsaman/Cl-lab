@@ -1,0 +1,9 @@
+t=0:0.01:100
+f1=98765
+f2=12345
+f3=34567
+x=tan(2*pi*f1*t)
+y=sin(2*pi*f2*t)
+n=sec(2*pi*f3*t)
+z=(x-y+n)
+plot(t,z)

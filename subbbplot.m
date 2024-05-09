@@ -1,0 +1,10 @@
+t=0:0.1:1
+x=sin(2*pi*t)
+y=cos(2*pi*t)
+z=x+y
+subplot(1,3,1)
+plot(x)
+subplot(1,3,2)
+plot(y)
+subplot(1,3,3)
+imshow("/home/rguktrkvalley/Pictures/rgbcolorss.jpg")
